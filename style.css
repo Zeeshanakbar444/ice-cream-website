@@ -1,0 +1,341 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div {
+    background-image: url(./image/background.jpg);
+    width: 100hw;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center;
+    opacity: 0.7;
+
+}
+
+.nav {
+
+    display: flex;
+
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(241, 232, 232);
+    opacity: 0.7;
+}
+
+.ul {
+    display: flex;
+    /* background-color: red; */
+    opacity: 0.6;
+    height: 60px;
+    justify-content: end;
+
+}
+
+.ul li {
+    list-style-type: none;
+    margin: 20px;
+
+}
+
+.ul li a {
+    text-decoration: none;
+    color: rgb(49, 47, 47);
+    font-size: 32px;
+}
+
+.img {
+    margin: 5px;
+    border-radius: 8px;
+    margin-left: 13px;
+
+}
+
+.ul li a:hover {
+    background-color: yellow;
+    color: rgb(239, 89, 89);
+    border-bottom: 2px solid green
+}
+
+.ice {
+    margin-left: -11px;
+    margin-top: -32px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(40, 39, 39);
+}
+.content{
+    display: flex;
+     justify-content:center ;
+}
+.content{
+    display: flex; 
+    justify-content:center ; 
+}
+.content h1{
+    margin: 100px;
+    margin-top: 350px;
+    font-size:40px ;
+    text-transform: capitalize;
+    text-align: center;
+    text-overflow: clip;
+    text-shadow: 20px , 20px , rgb(193, 46, 20);
+    color: rgb(237, 22, 22);
+    border-bottom: 5px dashed black;
+}
+
+
+/* ///////////////////////////// */
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    /* background-color: #333;  */
+    font-family: Arial;
+    margin: 10px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 2px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 10px;
+    /* Important for vertical align on mobile phones */
+    display: none;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+
+
+
+
+/* ///////////////////////////// */
+.card1 {
+    /* border: 2px solid black; */
+    width: 350px;
+    border-radius: 20px;
+
+
+}
+
+.card1:hover {
+    background-color: royalblue;
+    opacity: 0.6;
+
+}
+
+.card1 h1 {
+    width: 300px;
+    padding: 10px;
+}
+
+.img1 {
+    padding: 20px;
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.first div {
+    margin-top: 20px;
+    margin: 35px;
+}
+
+.ab {
+    color: red;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 5px solid gray;
+    width: 200px;
+    text-align: center;
+}
+
+.contact {
+    color: red;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 5px solid gray;
+    width: 200px;
+    text-align: center;
+}
+
+#area {
+    width: 400px;
+    height: 100px;
+    font-size: 20px;
+}
+
+input {
+    margin: 20px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+
+}
+
+.codiv {
+    border: 3px solid black;
+    background-color: aquamarine;
+    opacity: 0.5;
+    margin: 20px;
+    padding: 20px;
+}
+
+button {
+    background-color: grey;
+    color: white;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+.footer {
+    background-color: rgb(216, 93, 93);
+    opacity: 0.7;
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+}
+.footer{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;    
+}
+.footer a{
+    margin: 20px;
+    
+}
+.copy{
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+    .ul {
+        display: none;
+    }
+
+    .dropdown .dropbtn {
+        display: block;
+    }
+
+    .first {
+        /* display: flex;
+justify-content: center; */
+        flex-wrap: wrap;
+    }
+
+    #area {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    input {
+        margin: 20px;
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .cont {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .codiv {
+        border: 2px solid black;
+        background-color: aquamarine;
+        opacity: 0.5;
+        margin: 10px;
+        padding: 10px;
+    }
+
+
+}
