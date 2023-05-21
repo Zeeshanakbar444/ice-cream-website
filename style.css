@@ -53,7 +53,7 @@ body {
     margin: 5px;
     border-radius: 8px;
     margin-left: 13px;
-
+   
 }
 
 .ul li a:hover {
@@ -182,13 +182,15 @@ body {
     /* border: 2px solid black; */
     width: 350px;
     border-radius: 20px;
-
+    box-shadow: 0 0 15px 4px green;
+transition: 1s;
 
 }
 
+
 .card1:hover {
-    background-color: royalblue;
-    opacity: 0.6;
+    transform: scale(1.2);
+    z-index:3 ;
 
 }
 
@@ -196,9 +198,25 @@ body {
     width: 300px;
     padding: 10px;
 }
+.add{
+    margin-left: 20px;
+    padding: 12px;
+    font-size: 25px;
+    border-bottom:3px solid rgb(243, 12, 12) ;
+border-top: 3px solid rgb(68, 211, 39);
+background-color: aqua;
+width: 200px;
+height: 50px;
+
+}
+.add:hover{
+    background-color: yellow;
+    color: black;
+}
 
 .img1 {
     padding: 20px;
+    display: block;
 
 }
 
@@ -293,6 +311,9 @@ button:hover {
     color: white;
     font-size: 20px;
     margin-top: 50px;
+}
+.zee img:hover{
+    background-color: red;
 }
 
 @media only screen and (max-width: 500px) {
