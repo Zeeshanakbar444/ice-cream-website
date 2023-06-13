@@ -5,16 +5,11 @@ body {
 }
 
 .div {
-    background-image: url(./image/background.jpg);
+    /* background-image: url(./image/background.jpg); */
+    background-color: rgba(128, 0, 128,.5);
     width: 100hw;
     height: 100vh;
-    background-repeat: no-repeat;
-
-    background-size: cover;
-
-    background-position: center;
-    opacity: 0.7;
-
+    
 }
 
 .nav {
@@ -24,7 +19,7 @@ body {
     justify-content: space-between;
     position: fixed;
     width: 100%;
-    background-color: rgb(241, 232, 232);
+    background-color: rgba(0, 0, 0, 0.2);
     opacity: 0.7;
 }
 
@@ -45,7 +40,7 @@ body {
 
 .ul li a {
     text-decoration: none;
-    color: rgb(49, 47, 47);
+    color: black;
     font-size: 32px;
 }
 
@@ -189,8 +184,7 @@ transition: 1s;
 
 
 .card1:hover {
-    transform: scale(1.2);
-    z-index:3 ;
+    box-shadow: 0 0 15px 4px orange;
 
 }
 
@@ -210,8 +204,9 @@ height: 50px;
 
 }
 .add:hover{
-    background-color: yellow;
+    /* background-color: yellow; */
     color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .img1 {
